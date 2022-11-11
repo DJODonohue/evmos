@@ -29,7 +29,7 @@ module.exports = {
   ],
   base: process.env.VUEPRESS_BASE || "/",
   plugins: [
-    ["vuepress-plugin-element-tabs"],
+    ['@bidoubiwa/vuepress-plugin-element-tabs'],
     [
       "@vuepress/google-analytics",
       {
